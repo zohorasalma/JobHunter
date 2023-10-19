@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "icon": "../src/assets/icons/healthcare.png",
+        "name": "Healthcare",
+        "jobsAvailable": 180
+    },
+    {
+        "id":2,
+        "icon": "../src/assets/icons/technology.png",
+        "name": "Engineering Jobs",
+        "jobsAvailable": 500
+    },
+    {
+        "id":3,
+        "icon": "../src/assets/icons/business-and-finance.png",
+        "name": "Finance",
+        "jobsAvailable": 200
+    },
+    {
+        "id":4,
+        "icon": "../src/assets/icons/social-media.png",
+        "name": "Marketing & Sales",
+        "jobsAvailable": 100
+    }
+]
