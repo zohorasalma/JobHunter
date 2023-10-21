@@ -19,7 +19,7 @@
     },
     {
         "id":4,
-        "icon": "../src/assets/icons/social-media.png",
+        "icon": "../src/assets/icons/marketing.png",
         "name": "Marketing & Sales",
         "jobsAvailable": 100
     }
