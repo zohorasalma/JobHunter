@@ -3,9 +3,10 @@ import './JobPost.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import { faDollar } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const JobPost = ({ jobPost }) => {
-    const { title, logo, company, location, remoteOnsite, type, salary } = jobPost
+    const { id, title, logo, company, location, remoteOnsite, type, salary } = jobPost
     return (
         <div className='job-post border border-secondary-subtle border-2 rounded p-5'>
             <img src={logo} alt="" />
@@ -19,7 +20,8 @@ const JobPost = ({ jobPost }) => {
                 <span >
                     <FontAwesomeIcon icon={faDollar} className='text-secondary me-2' />
                     Salary : {salary}</span></p>
-            <button className='btn btn-primary'>View Details</button>
+            <Link to={`/jobDetails/${id}`}>
+                <button className='btn btn-primary'>View Details</button></Link>
         </div>
     );
 };
