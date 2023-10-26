@@ -8,10 +8,14 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import TitleBanner from '../TitleBanner/TitleBanner';
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
     const jobPost = useLoaderData();
-    const { responsibility, description, educationalRequirements, experience, salary, title, phone, email, address } = jobPost;
+    const { id, responsibility, description, educationalRequirements, experience, salary, title, phone, email, address } = jobPost;
+    const handleApply = (id) =>{
+        addToDb(id)
+    }
     return (
         <div>
             <TitleBanner>Job Details</TitleBanner>
@@ -62,7 +66,8 @@ const JobDetails = () => {
                         </p>
                         
                     </div>
-                    <button className='btn btn-primary w-100 fw-bold py-3 mt-4'>Apply Now</button>
+                    <button className='btn btn-primary w-100 fw-bold py-3 mt-4'
+                    onClick={()=>handleApply(id)}>Apply Now</button>
                 </Col>
             </Row>
         </Container>
