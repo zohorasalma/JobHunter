@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJobItem from '../AppliedJobItem/AppliedJobItem';
-import Banner from '../Banner/Banner';
+
 import TitleBanner from '../TitleBanner/TitleBanner';
 
 const AppliedJobs = () => {
