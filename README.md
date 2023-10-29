@@ -11,4 +11,4 @@ A SPA job searching website created using React, Vite,React Router, Bootstrap an
 - user can apply for any job shown in featured jobs
 - user can view all applied jobs in another Page
 - an small example of Rechart been given
-- simple error handling page being added
+- simple error handling page being added 
