@@ -4,7 +4,7 @@ import './JobCatCard.css'
 const JobCatCard = ({jobCat}) => {
     const {icon,name,jobsAvailable}= jobCat;
         return (
-        <div className='cat-card bg-body-tertiary p-4'>
+        <div className='cat-card bg-body-tertiary p-4 mb-3 '>
             <img className='p-2  bg-body-secondary mb-4'src={icon} alt="" />
             <h5>{name}</h5>
             <p className='text-secondary'>{jobsAvailable}+ jobs available</p>

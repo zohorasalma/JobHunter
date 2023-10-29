@@ -10,3 +10,19 @@
     font-weight: 800;
     line-height: 100px;
 }
+@media (max-width:600px) {
+    #tagline-text {
+        
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+
+    }
+    .tagline-p{
+        text-align: center;
+    }
+    .tagline-img{
+        width: 75%!important;
+    }
+    
+}

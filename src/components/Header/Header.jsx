@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className='bg-body-tertiary'>
             
-             <section className='px-5 container navbar pt-4' >
+             <section className=' container navbar pt-4 d-md-flex flex-sm-column flex-md-row align-items-sm-center justify-content-center justify-content-lg-around ' >
                 <h2 className='navbar-brand fs-2'>JobHunter</h2>
                 <nav className='nav'>
                     <Link className='nav-link' to='/'>Home</Link>
@@ -15,7 +15,7 @@ const Header = () => {
                     <Link className='nav-link' to='/applied-jobs'>Applied Jobs</Link>
                     <Link className='nav-link' to='/blog'>Blog</Link>
                 </nav>
-                <Button>Start Applying</Button>
+                <Button className='mt-2'>Start Applying</Button>
             </section> 
             
         </div>

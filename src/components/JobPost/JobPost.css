@@ -3,3 +3,8 @@
     margin-bottom: 28px;
 
 }
+@media (max-width:600px){
+    .job-post{
+        text-align: center;
+    }
+}

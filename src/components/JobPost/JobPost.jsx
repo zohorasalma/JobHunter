@@ -12,7 +12,7 @@ const JobPost = ({ jobPost }) => {
             <img src={logo} alt="" />
             <h4 className='fw-bold'>{title}</h4>
             <p className='fs-5 text-secondary'>{company}</p>
-            <p><span className='border border-info border-2 rounded text-info px-3 py-1 me-2'>{remoteOnsite}</span> <span className='border border-info border-2 rounded text-info px-3 py-1 me-2'>{type}</span></p>
+            <p className='d-flex flex-column flex-md-row row-gap-2'><span className='border border-info border-2 rounded text-info px-3 py-1 me-2 text-center '>{remoteOnsite}</span> <span className='border border-info border-2 rounded text-info px-3 py-1 me-2 text-center'>{type}</span></p>
             <p className='text-secondary fs-6'><span className='me-3'>
                 <FontAwesomeIcon icon={faLocationPin} className='text-secondary me-2' />
                 {location}
