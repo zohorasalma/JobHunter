@@ -1,8 +1,14 @@
-# React + Vite
+# JobHunter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A SPA job searching website created using React, Vite,React Router, Bootstrap and some Vanilla css.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- SPA structure being followed
+- fetch data from mock API 
+- data showed dynamically in react component
+- router done with React Router to make it a Single Page Application
+- user can apply for any job shown in featured jobs
+- user can view all applied jobs in another Page
+- an small example of Rechart been given
+- simple error handling page being added

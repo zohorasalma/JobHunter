@@ -13,7 +13,7 @@ const FeaturedJobs = () => {
         <div className='container'>
             <h1 className='text-center mt-5 fw-bold'>Featured Jobs</h1>
             <p className='text-secondary text-center'>Choose your dream job from our place and apply now</p>
-            <div className=' job-post-container mx-5 mt-4'>
+            <div className=' job-post-container mx-5 mt-4 px-4'>
             {
                 jobposts.map(jobpost=><JobPost
                 key={jobpost.id}
