@@ -13,6 +13,7 @@ import JobDetails from './components/JobDetails/JobDetails';
 import getJobDetails from './loader/JobDetailsLoader';
 import getAppliedJobsFromDb from './loader/AppliedJobsLoader';
 import Statistics from './components/Statistics/Statistics';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element:<Statistics></Statistics>
+      }
+      ,
+      {
+        path: '*',
+        element:<ErrorPage></ErrorPage>
       }
     ]
   },
